@@ -1,0 +1,48 @@
+{
+  "name": "kasir-pos-lengkap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kasir POS lengkap — full-stack (vinext + Cloudflare D1) dengan antarmuka pos.html universal",
+  "type": "module",
+  "scripts": {
+    "dev": "vinext dev",
+    "build": "vinext build",
+    "start": "wrangler dev dist/server/index.js --local --persist-to .wrangler/state",
+    "install:ci": "npm ci --prefer-offline --no-audit --no-fund",
+    "db:generate": "drizzle-kit generate",
+    "postinstall": "node scripts/patch-vinext.mjs"
+  },
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20250101.0",
+    "@mdx-js/rollup": "^3.0.0",
+    "@vitejs/plugin-react": "^5.1.4",
+    "@vitejs/plugin-rsc": "^0.5.26",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "drizzle-orm": "^0.36.4",
+    "es-module-lexer": "^1.7.0",
+    "lucide-react": "^0.468.0",
+    "next": "^15.1.3",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-server-dom-webpack": "^19.2.6",
+    "tailwind-merge": "^2.5.5",
+    "tw-animate-css": "^1.2.0",
+    "vinext": "^0.1.8",
+    "vite-tsconfig-paths": "^6.1.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "drizzle-kit": "^0.28.1",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.2",
+    "vite": "^7.0.0",
+    "wrangler": "^3.95.0"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
