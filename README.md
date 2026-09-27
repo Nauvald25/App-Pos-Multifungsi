@@ -151,5 +151,120 @@ The portable build runs Vinext directly without a host `timeout` command. The ma
 
 ## Learn More
 
+
+
+
+## hasil aplikasi
+<img width="1919" height="837" alt="image" src="https://github.com/user-attachments/assets/96ce0d6d-4f40-4b12-9e30-7ba1025ea6d7" />
+## fitur 
+Berdasarkan tampilan aplikasi POS (Point of Sale) pada gambar, berikut adalah panduan cara menggunakan fitur-fitur utamanya:
+
+1. Kasir (Menu Utama Transaksi)
+Klik menu Kasir di sidebar kiri.
+
+Pilih atau cari produk yang ingin dibeli pelanggan.
+
+Masukkan jumlah (qty) barang, pilih metode pembayaran (Tunai/QRIS/dll.), lalu selesaikan transaksi untuk mencetak/menyimpan struk.
+
+2. Kelola Produk (Tambah & Edit Barang)
+Klik menu Produk di sidebar kiri.
+
+Di menu ini Anda bisa:
+
+Menambah produk baru (Nama, Harga Beli, Harga Jual, Stok).
+
+Mengedit atau menghapus data barang yang sudah ada.
+
+Memantau sisa stok barang secara real-time.
+
+3. Riwayat Transaksi
+Klik menu Riwayat Transaksi untuk melihat daftar penjualan yang telah selesai dilakukan.
+
+Digunakan untuk mengecek detail transaksi lalu, mencetak ulang struk, atau melakukan pembatalan/retur jika diperlukan.
+
+4. Laporan
+Klik menu Laporan untuk melihat analisis detail penjualan bulanan/harian, laporan laba rugi, serta melakukan ekspor data (seperti ekspor ke file CSV/Excel).
+
+<img width="1919" height="806" alt="image" src="https://github.com/user-attachments/assets/ad195c1b-04cb-41e9-b232-72a95701b44f" />
+## fitur 
+Cari atau Pilih Produk
+
+Gunakan kolom pencarian "Cari produk atau ketik kode..." di bagian atas, atau filter berdasarkan kategori (Semua, Minuman, Makanan, Snack, Kebutuhan).
+
+Klik pada kartu produk yang ingin dibeli (misalnya: Air Mineral 600ml, Rokok SPM, dll.) untuk memasukkannya ke dalam keranjang.
+
+Atur Keranjang Belanja
+
+Produk yang diklik akan muncul di panel Keranjang sebelah kanan.
+
+Anda bisa menambah/mengurangi jumlah (qty) produk di keranjang, atau menekan tombol Kosongkan untuk menghapus semua barang dari keranjang jika terjadi pembatalan.
+
+Selesaikan Transaksi
+
+Setelah semua produk masuk ke keranjang, klik tombol Bayar atau Selesaikan Transaksi yang muncul di bagian bawah panel keranjang.
+
+Masukkan nominal uang yang diterima dari pembeli, lalu cetak atau simpan struk pembayaran.
+
+<img width="1919" height="789" alt="image" src="https://github.com/user-attachments/assets/702e522a-f857-45c4-a644-e0a4be288bb7" />
+## fitur
+Menambah Produk Baru
+
+Klik tombol + Tambah Produk di pojok kanan atas.
+
+Masukkan informasi barang seperti nama produk, kode produk (SKU), kategori (Minuman, Makanan, dll.), harga jual, harga beli, dan jumlah stok awal.
+
+Mencari Produk
+
+Gunakan kolom pencarian "Cari produk..." untuk menemukan barang tertentu secara cepat berdasarkan nama atau kodenya (misal: Kopi Hitam, KM-01).
+
+Mengedit Data Produk
+
+Klik tombol hijau Edit pada baris produk yang ingin diubah.
+
+Anda bisa memperbarui harga jual, menambah/mengurangi jumlah stok, atau mengubah status produk.
+
+Menghapus Produk
+
+Klik tombol merah Hapus jika produk tersebut sudah tidak dijual lagi atau ingin dihapus dari daftar sistem.
+
+<img width="1919" height="746" alt="image" src="https://github.com/user-attachments/assets/eeb4fe7a-322e-4bf0-a465-e8d02807cbf7" />
+
+## fitur 
+Melihat Detail Transaksi
+
+Klik tombol hijau Detail pada kolom Aksi di baris transaksi yang ingin dilihat.
+
+Rincian mengenai produk apa saja yang dibeli, jumlah item, metode pembayaran (Tunai/QRIS), serta cetak ulang struk akan ditampilkan.
+
+Filter Berdasarkan Tanggal
+
+Gunakan pemilih tanggal (mm/dd/yyyy) di pojok kanan atas tabel untuk menyaring riwayat penjualan berdasarkan tanggal tertentu yang Anda inginkan.
+
+Mengekspor Data ke CSV
+
+Klik tombol CSV di sebelah filter tanggal untuk mengunduh seluruh catatan riwayat transaksi ke dalam file spreadsheet (.csv) untuk kebutuhan rekapitulasi atau pembukuan.
+
+<img width="1911" height="829" alt="image" src="https://github.com/user-attachments/assets/34296e25-16e8-4ef9-a6b5-7f68b0a113f0" />
+
+## fitur 
+
+Melihat Detail Transaksi
+
+Klik tombol hijau Detail pada kolom Aksi di baris transaksi yang ingin dilihat.
+
+Rincian mengenai produk apa saja yang dibeli, jumlah item, metode pembayaran (Tunai/QRIS), serta cetak ulang struk akan ditampilkan.
+
+Filter Berdasarkan Tanggal
+
+Gunakan pemilih tanggal (mm/dd/yyyy) di pojok kanan atas tabel untuk menyaring riwayat penjualan berdasarkan tanggal tertentu yang Anda inginkan.
+
+Mengekspor Data ke CSV
+
+Klik tombol CSV di sebelah filter tanggal untuk mengunduh seluruh catatan riwayat transaksi ke dalam file spreadsheet (.csv) untuk kebutuhan rekapitulasi atau pembukuan.
+
+
+
+
+
 - [vinext Documentation](https://github.com/cloudflare/vinext)
 - [Drizzle D1 Guide](https://orm.drizzle.team/docs/get-started/d1-new)
